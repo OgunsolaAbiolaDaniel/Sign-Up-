@@ -65,6 +65,7 @@ input{
     padding-top:5px;
     font-size: 16px;
     font-weight: 300;
+    outline:none;
 }
 label{
     padding-top: 10px;
@@ -87,9 +88,11 @@ label{
     padding: 10px;
     background-color: #231f1e;
     border-style:none ;
+    border-style:solid;
     color: #fff;
     font-size: 14px;
     border-radius: 5px;
+    cursor:pointer;
 }
 .btn-1:hover{
     background-color:aliceblue;
@@ -107,6 +110,7 @@ label{
     border-style: solid;
     border-width: 2px;
     border-color: darkgray;
+    cursor:pointer;
 }
 .btn-2:hover{
  background-color:darkgray;
