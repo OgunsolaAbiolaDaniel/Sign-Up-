@@ -1,0 +1,204 @@
+*,*::before
+*::after
+{
+    box-sizing: border-box;
+}
+.body{
+    width: 100%;
+    height:100%;
+}
+.dan-container{
+   display: flex; 
+   height: 100vh;
+   width: 100%;
+
+}
+.side-a{
+    display: none;
+}
+.side-b{
+ display: flex;
+ flex-direction: column;
+ padding: 10px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ justify-content: center;
+ color: #231f1e;
+ position: relative;
+}
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.logo1{
+    width: 100px;
+    justify-self: start;
+    padding-top: 0%;
+    object-fit: cover;
+}
+
+.top{
+line-height: 15px;
+
+}
+h2{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+}
+p {
+    text-align: center;
+    font-size: 15px;
+}
+.for{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: darkgray;
+}
+input{
+    border-style: none;
+    border-bottom: solid ;
+    border-width: 1px;
+    color: #231f1e;
+    padding-top:5px;
+    font-size: 16px;
+    font-weight: 300;
+}
+label{
+    padding-top: 10px;
+}
+.bt{
+     padding-top: 30px;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+}
+.btn{ 
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.btn-1{
+    width: 100%;
+    padding: 10px;
+    background-color: #231f1e;
+    border-style:none ;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.btn-1:hover{
+    background-color:aliceblue;
+    color: #231f1e;
+    border-style: solid;
+
+}
+
+.btn-2{
+    width: 100%;
+    padding: 10px ;
+    font-size: 14px;
+    border-radius: 5px;
+    border-style: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgray;
+}
+.btn-2:hover{
+ background-color:darkgray;
+ border-style: none;
+ color: #fff;
+}
+.login{
+    color: darkgray;
+     text-align: center; 
+     font-size: 14px;
+     padding-top: 15px;
+}
+a{
+    text-decoration: underline;
+    text-decoration-color: #231f1e;
+    color: #231f1e;
+}
+@media screen and (min-width: 375px) {
+    .side-b{
+        width: 100%;
+    }
+    p{
+        text-align: left;
+    }
+
+}
+@media screen and (min-width: 768px)
+{
+.side-a {
+    width: 30%;
+    display: block;
+    overflow: hidden;
+    height: 100vh
+}
+.side-a img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.side-b{
+    width: 70%;
+ padding-left: 20px;
+}
+.logo{
+    width: 100px;
+    top: 5px;
+    right: 5px;
+}
+p{
+    text-align: left;
+}
+}
+@media screen and (min-width:1024px) {
+    .side-a{
+        width: 60%;
+    }
+    .side-b{
+        width: 40%;
+        padding:0px 50px ;
+        line-height: 2.5rem;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .btn-1{
+        padding: 15px;
+        font-size: larger;
+    }
+    .btn-2{
+        padding: 15px;
+        font-size: larger;
+    }
+    .bt{
+        gap:20px;
+    }
+    .login{
+        font-size: 18px;
+    }
+    .input{
+        font-size: 18px;
+        font-weight:500;
+    }
+    label{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    p{
+        font-size: 18px;
+    }
+    .logo{
+        width: 150px;
+        top: 5px;
+        right: 5px;
+    }
+}
