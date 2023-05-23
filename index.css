@@ -65,7 +65,7 @@ input{
     padding-top:5px;
     font-size: 16px;
     font-weight: 300;
-    outline:none;
+    outline-style:none;
 }
 label{
     padding-top: 10px;
