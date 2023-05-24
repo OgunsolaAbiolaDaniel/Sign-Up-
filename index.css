@@ -109,7 +109,6 @@ label{
     border-style: none;
     border-style: solid;
     border-width: 2px;
-    border-color: darkgray;
     cursor:pointer;
 }
 .btn-2:hover{
