@@ -115,6 +115,7 @@ label{
 .btn-2:hover{
  background-color:darkgray;
  border-style: none;
+ border-style:solid;
  color: #fff;
 }
 .login{
